@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/vjjd/node-fluent-ffmpeg.git"
   },
+  "dependencies": {
+    "async": ">=0.2.9",
+    "which": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
   "keywords": [
     "ffmpeg",
     "webpack",
