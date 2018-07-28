@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/vjjd/node-fluent-ffmpeg.git"
   },
+   "devDependencies": {
+    "mocha": "latest",
+    "should": "latest",
+    "jsdoc": "latest"
+  },
   "dependencies": {
     "async": ">=0.2.9",
     "which": "^1.1.1"
