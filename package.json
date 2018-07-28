@@ -1,37 +1,24 @@
 {
-  "name": "fluent-ffmpeg",
-  "version": "2.1.2",
-  "description": "A fluent API to FFMPEG (http://www.ffmpeg.org)",
+  "name": "fluent-ffmpeg-corrected",
+  "version": "1.0.0",
+  "description": "Version of original fluent-ffmpeg without webpack error",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjjd/node-fluent-ffmpeg.git"
+  },
   "keywords": [
-    "ffmpeg"
+    "ffmpeg",
+    "webpack",
+    "nodejs"
   ],
-  "author": "Stefan Schaermeli <schaermu@gmail.com>",
-  "contributors": [
-    {
-      "name": "Felix Fichte",
-      "email": "spruce@space-ships.de"
-    }
-  ],
+  "author": "donel",
   "license": "MIT",
   "bugs": {
-    "mail": "schaermu@gmail.com",
-    "url": "http://github.com/fluent-ffmpeg/node-fluent-ffmpeg/issues"
+    "url": "https://github.com/vjjd/node-fluent-ffmpeg/issues"
   },
-  "repository": "git://github.com/fluent-ffmpeg/node-fluent-ffmpeg.git",
-  "devDependencies": {
-    "mocha": "latest",
-    "should": "latest",
-    "jsdoc": "latest"
-  },
-  "dependencies": {
-    "async": ">=0.2.9",
-    "which": "^1.1.1"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  },
-  "main": "index",
-  "scripts": {
-    "test": "make test"
-  }
+  "homepage": "https://github.com/vjjd/node-fluent-ffmpeg#readme"
 }
